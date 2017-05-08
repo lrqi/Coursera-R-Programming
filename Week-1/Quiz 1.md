@@ -9,8 +9,9 @@ The University of Auckland
 The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?
 #####Answer
 ```
-The freedom to improve the program, and release your improvements to the public, 
-so that the whole community benefits.
+The freedom to prevent users from using the software for undesirable purposes.
+The freedom to sell the software for any price.
+The freedom to restrict access to the source code for the software.
 ```
 -------------------------
 ####Question 3
@@ -90,6 +91,7 @@ Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all e
 #####Answer
 ```
 x[x == 10] <- 4
+x[x %in% 1:10] <- 0
 ```
 ----------------
 ####Question 11
